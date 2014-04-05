@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="profile">
+		<fieldset name="profile"
+			label="PLG_USER_PROFILE_SLIDER_LABEL"
+		>
+			<field
+				name="address1"
+				type="text"
+				id="address1"
+				description="PLG_USER_PROFILE_FIELD_ADDRESS1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_ADDRESS1_LABEL"
+				size="30"
+				class="address"
+			/>
+
+			<field
+				name="city1"
+				type="text"
+				id="city1"
+				description="PLG_USER_PROFILE_FIELD_CITY1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_CITY1_LABEL"
+				size="30"
+				class="address"
+			/>
+
+			<field
+				name="region1"
+				type="text"
+				id="region1"
+				description="PLG_USER_PROFILE_FIELD_REGION1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_REGION1_LABEL"
+				size="30"
+				class="address"
+			/>
+
+			<field
+				name="country1"
+				type="text"
+				id="country1"
+				description="PLG_USER_PROFILE_FIELD_COUNTRY1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_COUNTRY1_LABEL"
+				size="30"
+				class="address"
+			/>
+
+			<field
+				name="postal_code1"
+				type="text"
+				id="postal_code1"
+				description="PLG_USER_PROFILE_FIELD_POSTAL_CODE1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_POSTAL_CODE1_LABEL"
+				size="30"
+				class="address"
+			/>
+
+			<field
+				name="phone1"
+				type="tel"
+				id="phone1"
+				description="PLG_USER_PROFILE_FIELD_PHONE1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_PHONE1_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="website1"
+				type="url"
+				id="website1"
+				description="PLG_USER_PROFILE_FIELD_WEB_SITE_DESC1"
+				filter="url"
+				label="PLG_USER_PROFILE_FIELD_WEB_SITE_LABEL1"
+				size="30"
+			/>
+			<field
+				name="favoritebook1"
+				type="text"
+				description="PLG_USER_PROFILE_FIELD_FAVORITE_BOOK1_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_FAVORITE_BOOK1_LABEL"
+				size="30"
+			/>
+			<field
+				name="aboutme1"
+				type="textarea"
+				description="PLG_USER_PROFILE_FIELD_ABOUT_ME1_DESC"
+				label="PLG_USER_PROFILE_FIELD_ABOUT_ME1_LABEL"
+				cols="30"
+				rows="5"
+				filter="safehtml"
+			/>
+			<field name="spacer" type="hidden" class="text"
+			label="PLG_USER_PROFILE_SPACER_DOB"
+			/>
+			<field
+				name="dob"
+				type="calendar"
+				label="PLG_USER_PROFILE_FIELD_DOB_LABEL"
+				description="PLG_USER_PROFILE_FIELD_DOB_DESC"
+				format="%Y-%m-%d"
+			/>
+			<field
+				name="tos"
+				type="tos"
+				default=""
+				label="PLG_USER_PROFILE_FIELD_TOS_LABEL"
+				description="PLG_USER_PROFILE_FIELD_TOS_DESC">
+				<option value="1">PLG_USER_PROFILE_OPTION_AGREE</option>
+				<option value="">JNO</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>
