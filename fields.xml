@@ -5,13 +5,7 @@
   <field class="address">region1</field>
   <field class="address">country1</field>
   <field class="address">postal_code1</field>
-  <field class="address">address2</field>
-  <field class="address">city2</field>
-  <field class="address">region2</field>
-  <field class="address">country2</field>
-  <field class="address">postal_code2</field>
   <field>phone1</field>
-  <field>phone2</field>
   <field>website1</field>
   <field>favoritebook1</field>
   <field>aboutme1</field>
