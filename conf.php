@@ -1,5 +1,7 @@
 <?php
 
+// JPATH_BASE/plugins/user/profile
+
 //defined('JPATH_BASE') or die;
 
 class UserProfileConf
@@ -85,6 +87,8 @@ class UserProfileConf
 		else if ($type == 'ABOUTME') {
 			$type = 'ABOUT_ME';
 		}
+
+		// $fd = fopend(JPATH_BASE."/administrator/language/en-GB/en-GB.plg_user_profile.ini", "r+");
 		$fd = fopen('C:\\Program Files (x86)\\EasyPHP-DevServer-14.1VC11\\data\\localweb\\projects\\administrator\\language\\en-GB\\en-GB.plg_user_profile.ini', 'r+');
 		if ($fd) {
 			// load the file
