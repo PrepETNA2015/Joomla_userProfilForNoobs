@@ -1,8 +1,5 @@
 Joomla_userProfilForNoobs
 
-DEV 
-
-WIESER frank
 
 
 =========================
